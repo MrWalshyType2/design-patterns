@@ -5,7 +5,7 @@ public class Trainee {
 	private int age;
 	private String technology;
 
-	Trainee(String name, int age, String technology) {
+	public Trainee(String name, int age, String technology) {
 		this.name = name;
 		this.age = age;
 		this.technology = technology;
